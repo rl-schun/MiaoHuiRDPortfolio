@@ -1,5 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  background-color: #f9ecd9;
+  min-height: 100vh;
+  border: solid 5px #af462e;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+  justify-content: center;
+  padding: 30px 35px;
 }
 
 .App-logo {
@@ -35,4 +53,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #af462e;
+}
+::-webkit-scrollbar-thumb {
+  background: #f9ecd9;
+  border: solid 3px #af462e;
+  border-radius: 15px;
 }
