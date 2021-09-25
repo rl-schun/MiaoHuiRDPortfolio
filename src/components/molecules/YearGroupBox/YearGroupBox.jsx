@@ -25,6 +25,7 @@ function YearGroupBox() {
         <MemberLink name="Benny Lim Wen Yuan" to="/bennylimwenyuan" />
         <MemberLink name="Ryan Lee Tian Yoong" to="/ryanleetianyoong" />
         <MemberLink name="Tan Jian Shiun" to="/tanjianshiun" />
+        <MemberLink name="Lai Kai Shien" to="/laikaishien" />
       </MemberListWrapper>
     </Wrapper>
   );
