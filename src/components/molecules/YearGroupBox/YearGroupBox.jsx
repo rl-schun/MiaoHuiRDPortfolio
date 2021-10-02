@@ -18,7 +18,7 @@ function YearGroupBox() {
         <MemberLink name="Richard Lim Siu Chun" to="/richardlimsiuchun" />
         <MemberLink name="Chan Zi Ming" to="/chanziming" />
         <MemberLink name="Wesley Tai Kean Wah" to="/wesleytaikeanwah" />
-        <MemberLink name="Belle Tang Li Jiun" to="/belletanglijiun" />
+        <MemberLink name="Belle Tang Li Juin" to="/belletanglijuin" />
         <MemberLink name="Lam Jie Xin" to="/lamjiexin" />
         <MemberLink name="Javier Tan Xian Neng" to="/javiertanxianneng" />
         <MemberLink name="Yeoh Yi Hang" to="/yeohyihang" />

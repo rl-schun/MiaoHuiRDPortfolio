@@ -8,7 +8,7 @@ import Footer from "./components/molecules/Footer";
 import RichardLimSiuChun from "./components/pages/MemberPages/RichardLimSiuChun";
 import ChanZiMing from "./components/pages/MemberPages/ChanZiMing";
 import WesleyTaiKeanWah from "./components/pages/MemberPages/WesleyTaiKeanWah";
-import BelleTangLiJiun from "./components/pages/MemberPages/BelleTangLiJiun";
+import BelleTangLiJuin from "./components/pages/MemberPages/BelleTangLiJuin";
 import LamJieXin from "./components/pages/MemberPages/LamJieXin";
 import JavierTanXianNeng from "./components/pages/MemberPages/JavierTanXianNeng";
 import YeohYiHang from "./components/pages/MemberPages/YeohYiHang";
@@ -50,8 +50,8 @@ function ProfileRoute() {
       <Route path="/wesleytaikeanwah" exact>
         <WesleyTaiKeanWah />
       </Route>
-      <Route path="/belletanglijiun" exact>
-        <BelleTangLiJiun />
+      <Route path="/belletanglijuin" exact>
+        <BelleTangLiJuin />
       </Route>
       <Route path="/lamjiexin" exact>
         <LamJieXin />
