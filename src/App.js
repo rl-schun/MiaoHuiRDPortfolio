@@ -8,7 +8,7 @@ import Footer from "./components/molecules/Footer";
 import RichardLimSiuChun from "./components/pages/MemberPages/RichardLimSiuChun";
 import ChanZiMing from "./components/pages/MemberPages/ChanZiMing";
 import WesleyTaiKeanWah from "./components/pages/MemberPages/WesleyTaiKeanWah";
-import BelleTangLiJiun from "./components/pages/MemberPages/BelleTangLiJiun";
+import BelleTangLiJuin from "./components/pages/MemberPages/BelleTangLiJuin";
 import LamJieXin from "./components/pages/MemberPages/LamJieXin";
 import JavierTanXianNeng from "./components/pages/MemberPages/JavierTanXianNeng";
 import YeohYiHang from "./components/pages/MemberPages/YeohYiHang";
@@ -16,6 +16,7 @@ import BennyLimWenYuan from "./components/pages/MemberPages/BennyLimWenYuan";
 import RyanLeeTianYoong from "./components/pages/MemberPages/RyanLeeTianYoong";
 import TanJianShiun from "./components/pages/MemberPages/TanJianShiun";
 import LaiKaiShien from "./components/pages/MemberPages/LaiKaiShien";
+import OoiSiSheng from "./components/pages/MemberPages/OoiSiSheng";
 
 function App() {
   return (
@@ -50,8 +51,8 @@ function ProfileRoute() {
       <Route path="/wesleytaikeanwah" exact>
         <WesleyTaiKeanWah />
       </Route>
-      <Route path="/belletanglijiun" exact>
-        <BelleTangLiJiun />
+      <Route path="/belletanglijuin" exact>
+        <BelleTangLiJuin />
       </Route>
       <Route path="/lamjiexin" exact>
         <LamJieXin />
@@ -73,6 +74,9 @@ function ProfileRoute() {
       </Route>
       <Route path="/laikaishien" exact>
         <LaiKaiShien />
+      </Route>
+      <Route path="/ooisisheng" exact>
+        <OoiSiSheng />
       </Route>
     </>
   );
