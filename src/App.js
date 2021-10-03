@@ -16,6 +16,7 @@ import BennyLimWenYuan from "./components/pages/MemberPages/BennyLimWenYuan";
 import RyanLeeTianYoong from "./components/pages/MemberPages/RyanLeeTianYoong";
 import TanJianShiun from "./components/pages/MemberPages/TanJianShiun";
 import LaiKaiShien from "./components/pages/MemberPages/LaiKaiShien";
+import OoiSiSheng from "./components/pages/MemberPages/OoiSiSheng";
 
 function App() {
   return (
@@ -73,6 +74,9 @@ function ProfileRoute() {
       </Route>
       <Route path="/laikaishien" exact>
         <LaiKaiShien />
+      </Route>
+      <Route path="/ooisisheng" exact>
+        <OoiSiSheng />
       </Route>
     </>
   );
