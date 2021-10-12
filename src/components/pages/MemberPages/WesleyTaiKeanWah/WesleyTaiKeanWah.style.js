@@ -6,12 +6,12 @@ color: #FF0000;
 export const ImgWesContainer = styled.div`
 position: relative;
 margin: auto;
-color: white;
+color: #FFA500;
 `
 
 export const ImgText = styled.h1`
 position: absolute;
 top: 58px;
 padding-left:0px;
-color: #FF0000;
+color: #FFA500;
 `
