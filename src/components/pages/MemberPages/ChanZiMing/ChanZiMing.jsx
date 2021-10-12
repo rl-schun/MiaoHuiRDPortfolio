@@ -1,7 +1,8 @@
 import React from "react";
 
 function ChanZiMing() {
-  return <div></div>;
+  return <div>
+  </div>;
 }
 
 export default ChanZiMing;

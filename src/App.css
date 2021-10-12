@@ -67,3 +67,17 @@
   border: solid 3px #af462e;
   border-radius: 15px;
 }
+
+.TextOverImg{
+  position: absolute !important;
+  top: 25px;
+  left: 17%;
+  margin-bottom: -50px;
+  color: #FF0000 !important;
+  width: 500px;
+}
+
+.WesStyle {
+ margin-left:50%;
+ transform: translateX(-50%);
+}
